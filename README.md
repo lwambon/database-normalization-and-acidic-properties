@@ -1,3 +1,23 @@
+<h1>JOINS</h1>
+<p>A JOIN clause is used to combine rows from two or more tables, based on a related column between them.</p>
+<h3>Types of joins</h3>
+<p>Inner Join <br>Left Join <br>Right Join <br>Full Join</p>
+<h2>Inner Join</h2>
+<p>An INNER JOIN is the default join which retrieves the intersection of two tables. It compares each row of the first table with each row of the second table. If the pairs of these rows satisfy the join-predicate, they are joined together.</p>
+<h5>Exampe</h5>
+
+<h2>Left Join</h2>
+
+<p>LEFT JOIN returns all the rows of the table on the left side of the join and matches rows for the table on the right side of the join. For the rows for which there is no matching row on the right side, the result-set will contain null</p>
+<h5>Example</h5>
+
+<h2>Right Join </h2>
+<p>returns all rows from the right table, even if there are no matches in the left table.</p>
+<h5>Example</h5>
+<h2>Full Join</h2>
+<p> returns rows when there is a match in one of the tables.Creates the result-set by combining results of both LEFT JOIN and RIGHT JOIN. The result-set will contain all the rows from both tables</p>
+<h5>Example</h5>
+
 <h1>NORMALIZATION</h1>
 <p>Normalization is the process of organizing the data in the database.</p>
 <p>Normalization is used to minimize the redundancy from a relation or set of relations. It is also used to eliminate undesirable characteristics like Insertion, Update, and Deletion Anomalies.</p>
@@ -64,22 +84,3 @@ Commit => If a transaction commits, changes made are visible.</p>
 <h2>Durability</h2>
 <p>This property ensures that once the transaction has completed execution, the updates and modifications to the database are stored in and written to disk and they persist even if a system failure occurs. These updates now become permanent and are stored in non-volatile memory.</p>
 
-<h1>JOINS</h1>
-<p>A JOIN clause is used to combine rows from two or more tables, based on a related column between them.</p>
-<h3>Types of joins</h3>
-<p>Inner Join <br>Left Join <br>Right Join <br>Full Join</p>
-<h2>Inner Join</h2>
-<p>An INNER JOIN is the default join which retrieves the intersection of two tables. It compares each row of the first table with each row of the second table. If the pairs of these rows satisfy the join-predicate, they are joined together.</p>
-<h5>Exampe</h5>
-
-<h2>Left Join</h2>
-
-<p>LEFT JOIN returns all the rows of the table on the left side of the join and matches rows for the table on the right side of the join. For the rows for which there is no matching row on the right side, the result-set will contain null</p>
-<h5>Example</h5>
-
-<h2>Right Join </h2>
-<p>returns all rows from the right table, even if there are no matches in the left table.</p>
-<h5>Example</h5>
-<h2>Full Join</h2>
-<p> returns rows when there is a match in one of the tables.Creates the result-set by combining results of both LEFT JOIN and RIGHT JOIN. The result-set will contain all the rows from both tables</p>
-<h5>Example</h5>
