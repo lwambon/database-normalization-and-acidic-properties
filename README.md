@@ -1,10 +1,29 @@
 <h1>JOINS</h1>
 <p>A JOIN clause is used to combine rows from two or more tables, based on a related column between them.</p>
 <h3>Types of joins</h3>
-<p>Inner Join <br>Left Join <br>Right Join <br>Full Join</p>
+<ul>
+<li>Inner Join</li>
+<li>Left Join</li>
+<li>Right Join </li>
+<li>Full Join</li>
+
+</ul>
+
 <h2>Inner Join</h2>
 <p>An INNER JOIN is the default join which retrieves the intersection of two tables. It compares each row of the first table with each row of the second table. If the pairs of these rows satisfy the join-predicate, they are joined together.</p>
+<p>syntax</p>
+<code>SELECT column_name(s) 
+FROM table1
+INNER JOIN table2
+ON table1.column_name = table2.column_name;</code>
 <h5>Exampe</h5>
+<p>syntax</p>
+<img src="/images/innerjoinsyntax.JPG" alt="inner join syntax"/> <br>
+<img src="/images/product table.JPG" alt="product
+table"/><br>
+<img src="/images/product.JPG" alt="product syntax"/><br>
+<img src="/images/categories table.JPG" alt="categories table "/><br>
+<img src="/images/category.JPG" alt="categories syntax"/>
 
 <h2>Left Join</h2>
 
