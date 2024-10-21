@@ -105,7 +105,14 @@ ON table1.column_name = table2.column_name;</code>
 <p>no duplicated rows or columns</p>
 <p>each column must have only one value for each row in the table</p>
 <h5>Example</h5>
-
+before first normal form <br>
+<img src="/images/before 1nf.JPG" alt=" before 1nf"/><br>
+<img src="/images/inf before table.JPG" alt="before 1nf table "/><br>
+after first normal form <br>
+<img src="/images/borrowers inf .JPG" alt="borrowers 1nf table"/> <br>
+<img src="/images/borrowers sinf.JPG" alt="borrowers inf syntax"/><br>
+<img src="/images/books inf.JPG" alt="books inf"/> <br>
+<img src="/images/books table inf.JPG" alt="books inf table"/> <br>
 
 <h3>Second Normal Form(2NF)</h3>
 <p>2NF builds on 1NF by requiring that each non-primary key column in a table is fully functionally dependent on the primary key. This means that a table should not have partial dependencies, where a non-primary key column depends on only part of the primary key.</p>
@@ -115,6 +122,15 @@ ON table1.column_name = table2.column_name;</code>
 It’s already in 1NF<br>
 Has no partial dependency. That is, all non-key attributes are fully dependent on a primary key.</p>
 <h5>Example</h5>
+before second normal form <br>
+<img src="/images/2nf ss.JPG" alt=" before 2nf"/><br>
+<img src="/images/2nf table.JPG" alt="before 2nf table "/><br>
+after second normal form <br>
+<img src="/images/2nf borrower s .JPG" alt="borrowers 2nf syntax"/> <br>
+<img src="/images/borrower table.JPG" alt="borrowers 2nf table"/><br>
+<img src="/images/2nf book s" alt="books 2nf"/> <br>
+<img src="/images/book table 2nf.JPG" alt="books 2nf table"/> <br>
+
 
 <h3>Third Normal Form (3NF)</h3>
 <p>3NF builds on 2NF by requiring that each non-primary key column in a table is not transitively dependent on the primary key.</p>
