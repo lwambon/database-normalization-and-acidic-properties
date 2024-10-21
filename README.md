@@ -74,8 +74,7 @@ FULL JOIN table2
 ON table1.column_name = table2.column_name;</code>
 <h5>Example</h5>
 
-img src="/images/orders table syntax.JPG" alt="orders
-syntax"/><br>
+<br>
 <img src="/images/books table.JPG" alt="books table"/><br>
 <img src="/images/books syntax.JPG" alt="books syntax "/><br>
 <img src="/images/students table.JPG" alt="students table"/> <br>
