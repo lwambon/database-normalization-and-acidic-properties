@@ -28,14 +28,60 @@ table"/><br>
 <h2>Left Join</h2>
 
 <p>LEFT JOIN returns all the rows of the table on the left side of the join and matches rows for the table on the right side of the join. For the rows for which there is no matching row on the right side, the result-set will contain null</p>
+
+<p>syntax</p>
+<code>SELECT column_name(s) 
+FROM table1
+LEFT JOIN table2
+ON table1.column_name = table2.column_name;</code>
 <h5>Example</h5>
+
+<img src="/images/left join syntax.JPG" alt="left join syntax"/> <br>
+<img src="/images/left join table.JPG" alt="left join table"/> <br>
+<img src="/images/orders table syntax.JPG" alt="orders
+syntax"/><br>
+<img src="/images/orders table.JPG" alt="orders table"/><br>
+<img src="/images/customers syntax.JPG" alt="customers syntax "/><br>
+<img src="/images/customers table.JPG" alt="customers table"/>
+
 
 <h2>Right Join </h2>
 <p>returns all rows from the right table, even if there are no matches in the left table.</p>
+
+<p>syntax</p>
+<code>SELECT column_name(s) 
+FROM table1
+RIGHT JOIN table2
+ON table1.column_name = table2.column_name;</code>
 <h5>Example</h5>
+
+<img src="/images/orders table syntax.JPG" alt="orders
+syntax"/><br>
+<img src="/images/orders table.JPG" alt="orders table"/><br>
+<img src="/images/customers syntax.JPG" alt="customers syntax "/><br>
+<img src="/images/customers table.JPG" alt="customers table"/>
+
+<img src="/images/right join syntax.JPG" alt="right join syntax"/> <br>
+<img src="/images/right join table.JPG" alt="right join table"/> <br>
+
 <h2>Full Join</h2>
 <p> returns rows when there is a match in one of the tables.Creates the result-set by combining results of both LEFT JOIN and RIGHT JOIN. The result-set will contain all the rows from both tables</p>
+
+<p>syntax</p>
+<code>SELECT column_name(s) 
+FROM table1
+FULL JOIN table2
+ON table1.column_name = table2.column_name;</code>
 <h5>Example</h5>
+
+img src="/images/orders table syntax.JPG" alt="orders
+syntax"/><br>
+<img src="/images/books table.JPG" alt="books table"/><br>
+<img src="/images/books syntax.JPG" alt="books syntax "/><br>
+<img src="/images/students table.JPG" alt="students table"/> <br>
+<img src="/images/students syntax.JPG" alt="students syntax"/><br>
+<img src="/images/right join syntax.JPG" alt="right join syntax"/> <br>
+<img src="/images/right join table.JPG" alt="right join table"/> <br>
 
 <h1>NORMALIZATION</h1>
 <p>Normalization is the process of organizing the data in the database.</p>
