@@ -156,12 +156,12 @@ after third normal form <br>
 
 before Boyce-Codd Normal Form  <br>
 <img src="/images/3nf s.JPG" alt=" before bcnf"/><br>
-<img src="/images/3nf table.JPG" alt="before bcnf table "/><br
+<img src="/images/3nf table.JPG" alt="before bcnf table "/><br>
 
 after Boyce-Codd Normal Form <br>
 <img src="/images/studentbcnf.JPG" alt="students syntax bcnf"/><br>
 <img src="/images/student 3nd t.JPG" alt="student table bcnf"/> <br>
-<img src="/images/addressbcnd.JPG" alt="address syntax bcnf"/> <br>
+<img src="/images/addressbcnf.JPG" alt="address syntax bcnf"/> <br>
 <img src="/images/address 3nf t.JPG" alt="address table bcnf "/> <br>
 
 <img src="/images/sa bcnf table.JPG" alt=" student address syntax bcnf"/> <br>
