@@ -140,6 +140,16 @@ X is a super key.<br>
 Y is a prime attribute, i.e., each element of Y is part of some candidate key.</p>
 <h5>Example</h5>
 
+before third normal form <br>
+<img src="/images/3nf s.JPG" alt=" before 2nf"/><br>
+<img src="/images/3nf table.JPG" alt="before 2nf table "/><br>
+after third normal form <br>
+<img src="/images/students 3nf.JPG" alt="students syntax 3nf"/><br>
+<img src="/images/student table 3nf.JPG" alt="student table 3nf"/> <br>
+<img src="/images/address 3nf.JPG" alt="address syntax 3nf"/> <br>
+<img src="/images/address table 3nf.JPG" alt="address table 3nf "/> <br>
+
+
 <h3>Boyce-Codd Normal Form (BCNF)</h3>
 <p>A stricter form of 3NF that applies to tables with more than one candidate key.Guarantees the validity of data dependencies. The dependencies of any attributes on non-key attributes are removed under the third level of normalization</p>
 <h5>Example</h5>
