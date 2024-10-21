@@ -141,8 +141,8 @@ Y is a prime attribute, i.e., each element of Y is part of some candidate key.</
 <h5>Example</h5>
 
 before third normal form <br>
-<img src="/images/3nf s.JPG" alt=" before 2nf"/><br>
-<img src="/images/3nf table.JPG" alt="before 2nf table "/><br>
+<img src="/images/3nf s.JPG" alt=" before 3nf"/><br>
+<img src="/images/3nf table.JPG" alt="before 3nf table "/><br>
 after third normal form <br>
 <img src="/images/students 3nf.JPG" alt="students syntax 3nf"/><br>
 <img src="/images/student table 3nf.JPG" alt="student table 3nf"/> <br>
@@ -153,6 +153,19 @@ after third normal form <br>
 <h3>Boyce-Codd Normal Form (BCNF)</h3>
 <p>A stricter form of 3NF that applies to tables with more than one candidate key.Guarantees the validity of data dependencies. The dependencies of any attributes on non-key attributes are removed under the third level of normalization</p>
 <h5>Example</h5>
+
+before Boyce-Codd Normal Form  <br>
+<img src="/images/3nf s.JPG" alt=" before bcnf"/><br>
+<img src="/images/3nf table.JPG" alt="before bcnf table "/><br
+
+after Boyce-Codd Normal Form <br>
+<img src="/images/studentbcnf.JPG" alt="students syntax bcnf"/><br>
+<img src="/images/student 3nd t.JPG" alt="student table bcnf"/> <br>
+<img src="/images/addressbcnd.JPG" alt="address syntax bcnf"/> <br>
+<img src="/images/address 3nf t.JPG" alt="address table bcnf "/> <br>
+
+<img src="/images/sa bcnf table.JPG" alt=" student address syntax bcnf"/> <br>
+<img src="/images/sa bcnf.JPG" alt="student address table bcnf "/> <br>
 
 <h3>Fourth Normal Form (4NF)</h3>
 <p>4NF builds on BCNF by requiring that a table should not have multi-valued dependencies. A multi-valued dependency occurs when a non-primary key column depends on a combination of other non-primary key columns.<br>It collapses the dependencies into single vs. multi-valued and eliminates the root of any data redundancy concerned with the multi-valued one.</p>
