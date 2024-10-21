@@ -109,7 +109,7 @@ before first normal form <br>
 <img src="/images/before 1nf.JPG" alt=" before 1nf"/><br>
 <img src="/images/inf before table.JPG" alt="before 1nf table "/><br>
 after first normal form <br>
-<img src="/images/borrowers inf .JPG" alt="borrowers 1nf table"/> <br>
+<img src="/images/borrowers inf.JPG" alt="borrowers 1nf table"/> <br>
 <img src="/images/borrowers sinf.JPG" alt="borrowers inf syntax"/><br>
 <img src="/images/books inf.JPG" alt="books inf"/> <br>
 <img src="/images/books table inf.JPG" alt="books inf table"/> <br>
@@ -126,9 +126,9 @@ before second normal form <br>
 <img src="/images/2nf ss.JPG" alt=" before 2nf"/><br>
 <img src="/images/2nf table.JPG" alt="before 2nf table "/><br>
 after second normal form <br>
-<img src="/images/2nf borrower s .JPG" alt="borrowers 2nf syntax"/> <br>
+<img src="/images/2nf borrower s.JPG" alt="borrowers 2nf syntax"/> <br>
 <img src="/images/borrower table.JPG" alt="borrowers 2nf table"/><br>
-<img src="/images/2nf book s" alt="books 2nf"/> <br>
+<img src="/images/2nf book s.JPG" alt="books 2nf"/> <br>
 <img src="/images/book table 2nf.JPG" alt="books 2nf table"/> <br>
 
 
